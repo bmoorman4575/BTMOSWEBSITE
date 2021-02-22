@@ -114,29 +114,9 @@ gdjs.LoginserviceCode.condition0IsTrue_0.val = false;
 {
 gdjs.LoginserviceCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.LoginserviceCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("Help"), gdjs.LoginserviceCode.GDHelpObjects2);
-gdjs.copyArray(runtimeScene.getObjects("attemptsleftvidable"), gdjs.LoginserviceCode.GDattemptsleftvidableObjects2);
-gdjs.copyArray(runtimeScene.getObjects("blinkingdot"), gdjs.LoginserviceCode.GDblinkingdotObjects2);
-gdjs.copyArray(runtimeScene.getObjects("box"), gdjs.LoginserviceCode.GDboxObjects2);
-gdjs.copyArray(runtimeScene.getObjects("enteryouroin"), gdjs.LoginserviceCode.GDenteryouroinObjects2);
 gdjs.copyArray(runtimeScene.getObjects("passwordhidden"), gdjs.LoginserviceCode.GDpasswordhiddenObjects2);
 gdjs.copyArray(runtimeScene.getObjects("passwordtext"), gdjs.LoginserviceCode.GDpasswordtextObjects2);
-{for(var i = 0, len = gdjs.LoginserviceCode.GDenteryouroinObjects2.length ;i < len;++i) {
-    gdjs.LoginserviceCode.GDenteryouroinObjects2[i].setOpacity(0);
-}
-}{for(var i = 0, len = gdjs.LoginserviceCode.GDboxObjects2.length ;i < len;++i) {
-    gdjs.LoginserviceCode.GDboxObjects2[i].setOpacity(0);
-}
-}{for(var i = 0, len = gdjs.LoginserviceCode.GDattemptsleftvidableObjects2.length ;i < len;++i) {
-    gdjs.LoginserviceCode.GDattemptsleftvidableObjects2[i].setOpacity(0);
-}
-}{for(var i = 0, len = gdjs.LoginserviceCode.GDHelpObjects2.length ;i < len;++i) {
-    gdjs.LoginserviceCode.GDHelpObjects2[i].setOpacity(0);
-}
-}{for(var i = 0, len = gdjs.LoginserviceCode.GDblinkingdotObjects2.length ;i < len;++i) {
-    gdjs.LoginserviceCode.GDblinkingdotObjects2[i].setOpacity(0);
-}
-}{for(var i = 0, len = gdjs.LoginserviceCode.GDpasswordtextObjects2.length ;i < len;++i) {
+{for(var i = 0, len = gdjs.LoginserviceCode.GDpasswordtextObjects2.length ;i < len;++i) {
     gdjs.LoginserviceCode.GDpasswordtextObjects2[i].setString("");
 }
 }{for(var i = 0, len = gdjs.LoginserviceCode.GDpasswordhiddenObjects2.length ;i < len;++i) {
@@ -227,7 +207,7 @@ gdjs.LoginserviceCode.condition0IsTrue_0.val = gdjs.evtTools.input.anyKeyPressed
 }if ( gdjs.LoginserviceCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LoginserviceCode.conditionTrue_1 = gdjs.LoginserviceCode.condition1IsTrue_0;
-gdjs.LoginserviceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7731284);
+gdjs.LoginserviceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7726180);
 }
 }if ( gdjs.LoginserviceCode.condition1IsTrue_0.val ) {
 {
@@ -268,7 +248,7 @@ gdjs.LoginserviceCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.LoginserviceCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LoginserviceCode.conditionTrue_1 = gdjs.LoginserviceCode.condition1IsTrue_0;
-gdjs.LoginserviceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7732980);
+gdjs.LoginserviceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7729436);
 }
 }if ( gdjs.LoginserviceCode.condition1IsTrue_0.val ) {
 {
@@ -414,7 +394,7 @@ for(var i = 0, k = 0, l = gdjs.LoginserviceCode.GDpasswordtextObjects2.length;i<
 gdjs.LoginserviceCode.GDpasswordtextObjects2.length = k;}if ( gdjs.LoginserviceCode.condition1IsTrue_0.val ) {
 {
 {gdjs.LoginserviceCode.conditionTrue_1 = gdjs.LoginserviceCode.condition2IsTrue_0;
-gdjs.LoginserviceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7737916);
+gdjs.LoginserviceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7737332);
 }
 }}
 }
@@ -446,7 +426,7 @@ for(var i = 0, k = 0, l = gdjs.LoginserviceCode.GDpasswordtextObjects1.length;i<
 gdjs.LoginserviceCode.GDpasswordtextObjects1.length = k;}if ( gdjs.LoginserviceCode.condition1IsTrue_0.val ) {
 {
 {gdjs.LoginserviceCode.conditionTrue_1 = gdjs.LoginserviceCode.condition2IsTrue_0;
-gdjs.LoginserviceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7739356);
+gdjs.LoginserviceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7724868);
 }
 }}
 }
